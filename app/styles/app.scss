@@ -1,0 +1,27 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.like-button{
+  padding: 20px 40px;
+  color: white;
+  font-size: 20px;
+  background: linear-gradient(#02A154, #2A236F);
+  position: absolute;
+  top: 300px;
+  left: 500px;
+}
