@@ -15,11 +15,6 @@ $('.like-button').on('click', function(){
 //
 // console.log(button.toJSON);
 
-button.on('change:likes', function(model, likes){
-  if (likes == 1){
-    $('.like-button').html(likes + ' like');
-  }else{
-      $('.like-button').html(likes + ' likes');
-  }
+button.on('change:likes', function(){
+  this.toJSON();
 });
-// console.log(Backbone.Model.prototype.toJSON(this));
